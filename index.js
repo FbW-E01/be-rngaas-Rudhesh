@@ -7,11 +7,10 @@ console.log("API_KEY = " + process.env.API_KEY);
 console.log("API_KEY = " + process.env.PATH);
 const server = http.createServer((req, res) => {
   console.log("Request Received");
-  res.write("Random Number: ");
-  res.write(
+
+  res.end(
     `${Math.round(Math.random() * 100)} ${"API_KEY = " + process.env.API_KEY}`
   );
-  res.end();
 });
 
 server.listen(8081);
