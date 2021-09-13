@@ -13,5 +13,5 @@ const server = http.createServer((req, res) => {
   );
 });
 
-server.listen(8081);
+server.listen(process.env.PORT);
 console.log("server starting http://localhost:8081");
