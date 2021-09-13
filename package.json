@@ -1,0 +1,21 @@
+{
+  "name": "be-rngaas-Rudhesh",
+  "version": "1.0.0",
+  "description": "- Create a Node web server that listens to port 8081. - When the server receives a request, it just responds with a random number",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FbW-E01/be-rngaas-Rudhesh.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FbW-E01/be-rngaas-Rudhesh/issues"
+  },
+  "homepage": "https://github.com/FbW-E01/be-rngaas-Rudhesh#readme"
+}
