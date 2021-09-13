@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/FbW-E01/be-rngaas-Rudhesh/issues"
   },
-  "homepage": "https://github.com/FbW-E01/be-rngaas-Rudhesh#readme"
+  "homepage": "https://github.com/FbW-E01/be-rngaas-Rudhesh#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
 }
